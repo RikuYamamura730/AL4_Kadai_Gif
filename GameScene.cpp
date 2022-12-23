@@ -75,7 +75,7 @@ void GameScene::Update()
 	objSkydome->Update();
 	objGround->Update();
 	objFighter->SetPosition({ 0.0f,1.5f,0.0f });
-	//objFighter->SetColor({ 1, 0, 0, 1 });
+	objFighter->SetColor({ 1, 0, 0, 1 });
 	objFighter->Update();
 
 	debugText.Print("AD: move camera LeftRight", 50, 50, 1.0f);

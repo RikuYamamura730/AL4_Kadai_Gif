@@ -267,8 +267,8 @@ void Object3d::Update() {
 	}
 
 	// 定数バッファへデータ転送
+	constMap->color = color;
 	constMap->mat = matWorld * matViewProjection; // 行列の合成
-	//constMap->color = color;
 }
 
 void Object3d::Draw() {
